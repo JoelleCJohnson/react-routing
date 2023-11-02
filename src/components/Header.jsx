@@ -1,7 +1,13 @@
 export default function Header(){
     return(
         <header>
-            <h2>Header</h2>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/signup">Signup</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
     )
 }

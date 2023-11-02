@@ -1,7 +1,8 @@
 export default function Footer(){
     return(
         <footer>
-            <h2>Footer</h2>
+            <hr />
+            <small>Copyright© Joelle Johnson 2023 | All rights reserved. </small>
         </footer>
     )
 }

@@ -1,5 +1,61 @@
 *, *::before, *::after {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   box-sizing: inherit;
+}
+
+header {
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  text-transform: uppercase;
+}
+
+header a:hover{
+  color: #303030;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.contact-page h2{
+  font-size: 90px;
+  color: #555;
+  padding: 3rem;
+}
+
+.contact-page span {
+  padding: 2rem 0 ;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.contact-page p {
+  margin: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer > small {
+  padding-top: 2rem;
 }
