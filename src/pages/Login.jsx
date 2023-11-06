@@ -18,16 +18,21 @@ export default function Login() {
     return (
         <div className="container">
             <h2>Log In Here!</h2>
+
             <form action="submit" onSubmit={handleFormSubmit}>
+
                 <label htmlFor="email"><span>Email:</span>
                     <input type="email" name="email" />
                 </label>
                 <br />
+
                 <label htmlFor="password"><span>Password:</span>
                     <input type="password" name="password" />
                 </label>
                 <br />
+
                 <button type="submit">Log In</button>
+     
             </form>
         </div>
     )
